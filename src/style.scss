@@ -274,9 +274,9 @@ body {
 	align-items:center;
 	justify-content:center;
 
-	@media (max-width:999px) {
-		height: 700px;
-	}
+	// @media (max-width:999px) {
+	// 	height: 700px;
+	// }
 }
 
 .coder {
@@ -323,6 +323,10 @@ body {
 	margin-left:5px;
 	margin-right:5px;
 	font-size:46px;
+
+	@media only screen and (max-device-width: 710px) {
+		margin: 0 5px;
+	}
 }
 
 .my-work {
@@ -610,21 +614,16 @@ span {
 		align-items: center;
 	}
 
+	.row.header-intro {
+		flex-direction: column;
+	}
+
 	.intro img {
 		display:none;
 	}
 
 	.djfull {
 		display:none;
-	}
-
-	.footer {
-		font-size:xx-large;
-	}
-
-	.footer-container {
-		height:80px;
-		padding-top: 24px;
 	}
 
 	.djabv {
@@ -658,37 +657,6 @@ span {
 		display:inherit;
 	}
 
-	.small-text {
-		font-size:36px !important;
-	}
-
-	span {
-		font-size:56px !important;
-	}
-
-	.tag {
-		font-size:30px !important;
-	}
-
-	.buttons {
-		height:200px;
-		line-height:190px;
-	}
-
-	.btn {
-		font-size:40px;
-	}
-
-	.btn-link {
-		width:40%;
-		font-size:30px;
-	}
-
-	.close-thick:after {
-		content: '✖'; /* UTF-8 symbol */
-		zoom:400%;
-	}
-
 	[class*='close-'] {
 		color: white;
 		text-shadow: 0 1px 0 black;
@@ -697,10 +665,6 @@ span {
 	[class*='close-']:hover {
 		color:#777;
 		text-shadow: 0 1px 0 black;
-	}
-
-	.text-container h2 {
-		font-size:60px;
 	}
 }
 
@@ -741,12 +705,6 @@ span {
 		display:inherit;
 		align-items: center;
     justify-content: center;
-	}
-}
-
-@media only screen and (max-device-width: 930px) {
-	.container p {
-		font-size:30px;
 	}
 }
 
@@ -798,13 +756,13 @@ img {
 		width: 100%;
 		margin-bottom:20px;
 	}
-	@media (min-width: 1000px) {
+	@media (min-width: 700px) {
     width: 49%;
   }
-  @media(min-width: 1100px) {
+  @media(min-width: 900px) {
     width: 32.5%;
   }
-  @media(min-width: 1200px) {
+  @media(min-width: 1000px) {
     width: 19.25%
   }
 }
@@ -827,13 +785,14 @@ img {
 	.tag {
 		border: 0px;
 		font-family: Ubuntu, sans-serif;
-		padding: 3px;
 		background: rgba(204, 204, 204, 0.2);
 		text-align:center;
 		color:white;
 		float:left;
 		font-size:12px;
 		margin:2px;
+		border-radius:2px;
+		padding: 3px 6px;
 
 		&.green {
 			background: rgba(38, 230, 30, 0.5);
@@ -902,7 +861,6 @@ img {
 	font-family: 'Quicksand', sans-serif;
 	
 	@media (max-width: 999px) {
-		font-size: 2.5rem;
 		display: flex;
 		justify-content: center;
 		letter-spacing: 1px;
@@ -922,8 +880,9 @@ img {
 }
 
 .text__content {
-	opacity:.7;
-	margin-top:-5px;
+	opacity:1;
+	font-family: 'Quicksand', sans-serif !important;
+	margin-top:-10px;
 }
 
 

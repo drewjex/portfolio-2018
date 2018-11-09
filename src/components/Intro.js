@@ -62,7 +62,7 @@ export class Intro extends React.Component {
       <div className={'intro '+(this.props.showModal || this.props.showAboutMe ? "blur" : "")}>
 				<img src='/assets/portrait-picture-min.jpg' alt='' />
 				<div className='item'>
-					<div className='row'>
+					<div className='row header-intro'>
 						<h1>I am a </h1><h1 className='txt-rotate'>{''}</h1>
 						{/* <h1>Designer</h1>
 						<h1>Creator</h1> */}
