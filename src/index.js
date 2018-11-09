@@ -61,15 +61,15 @@ let projects = [
 		]
 	},
 	{
-		title: "Thailand Travel Design Mockup",
-		description: "This is simply a front-end mockup of a potential landing page for a Travel site to Thailand. It showcases basic ability to design a simple, yet attractive web application using HTML and CSS.",
-		image: '/assets/thailand.png',
-		shortDescription: "Design Mockup for Thailand Travel Landing Page",
-		github: "",
-		project_url: "http://thailand.drewjex.com", //http://drewjex.x10host.com/booktracker/
+		title: "Flexible Presentation App",
+        description: "This is a basic front-end React App that allows me to create attractive, dynamic web presentations on the fly. Loads quickly and supports iframes that only load once, enabling me to do quick demos on sites like Codepen.io.",
+        image: '/assets/presentation.png',
+		shortDescription: "Simple app that allows me to create custom, dynamic web presentations.",
+		github: "https://github.com/drewjex/presentation",
+		project_url: "http://presentation.drewjex.com", 
 		tags: [
-			"HTML",
-			"SCSS"
+			"React",
+			"JavaScript"
 		]
 	},
 	{
