@@ -62,7 +62,7 @@ let projects = [
 	},
 	{
 		title: "Flexible Presentation App",
-        description: "This is a basic front-end React App that allows me to create attractive, dynamic web presentations on the fly. Loads quickly and supports iframes that only load once, enabling me to do quick demos on sites like Codepen.io.",
+        description: "This is a basic front-end React App that allows me to create attractive, dynamic web presentations on the fly. Loads quickly and supports iframes that only load once, enabling me to do quick demos on sites like Codepen.io. Use arrow keys to move forward and backward.",
         image: '/assets/presentation.jpg',
 		shortDescription: "Simple app that allows me to create custom, dynamic web presentations.",
 		github: "https://github.com/drewjex/presentation",
