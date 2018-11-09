@@ -10,7 +10,7 @@ let projects = [
 	{
 		title: "React Component Library",
 		description: "I led the development of a reusable component library built in React that can be pulled into web applications via a NPM package. Component library consisted of input text elements, drop downs, custom forms, radio/checkboxes, etc.",
-		image: '/assets/arc.png',
+		image: '/assets/arc.jpg',
 		shortDescription: "In-house reusable component library to increase design-consistency across applications",
 		github: "",
 		project_url: "", //http://drewjex.x10host.com/booktracker/
@@ -24,7 +24,7 @@ let projects = [
 	{
 		title: "Travel Discount App",
 		description: "I helped with the design and fully developed the front-end of the activities-reservation portion of the app for both desktop and mobile. Implmented best practices and most-recent features of React and Redux",
-		image: '/assets/activities.png',
+		image: '/assets/activities.jpg',
 		shortDescription: "Travel app built on React/Ruby that has 300K+ users",
 		github: "",
 		project_url: "", //http://drewjex.x10host.com/booktracker/
@@ -38,7 +38,7 @@ let projects = [
 	{
 		title: "Personal Music Site",
 		description: "I love to write music, and I am currently in the process of designing and developing a fully-functional single page app that allows users to hear and download my songs online.",
-		image: '/assets/music.png',
+		image: '/assets/musicsite.jpg',
 		shortDescription: "Currently under-construction - React single-page app design mockup",
 		github: "https://github.com/drewjex/music",
 		project_url: "https://music.drewjex.com", //http://drewjex.x10host.com/booktracker/
@@ -51,7 +51,7 @@ let projects = [
 	{
 		title: "Disneyland Tickets App",
 		description: "I helped design and personally developed a solution for selling discounted Disneyland tickets that is mobile friendly and easy to scan. Tickets are also printable and display consistently when printed on all major browsers, including IE11.",
-		image: '/assets/disney.png',
+		image: '/assets/disney.jpg',
 		shortDescription: "Disneyland Ticket mobile web app for easy scanning at gate",
 		github: "",
 		project_url: "http://disneyland.drewjex.com", //http://drewjex.x10host.com/booktracker/
@@ -63,7 +63,7 @@ let projects = [
 	{
 		title: "Flexible Presentation App",
         description: "This is a basic front-end React App that allows me to create attractive, dynamic web presentations on the fly. Loads quickly and supports iframes that only load once, enabling me to do quick demos on sites like Codepen.io.",
-        image: '/assets/presentation.png',
+        image: '/assets/presentation.jpg',
 		shortDescription: "Simple app that allows me to create custom, dynamic web presentations.",
 		github: "https://github.com/drewjex/presentation",
 		project_url: "http://presentation.drewjex.com", 
