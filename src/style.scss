@@ -862,7 +862,7 @@ img {
 	
 	@media (max-width: 999px) {
 		display: flex;
-		justify-content: center;
+		justify-content: start;
 		letter-spacing: 1px;
 	}
 }
@@ -875,7 +875,7 @@ img {
 	color:#ccc;
 	@media (max-width: 999px) {
 		display: flex;
-		justify-content: center;
+		justify-content: start;
 	}
 }
 
